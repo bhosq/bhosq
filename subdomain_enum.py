@@ -1,7 +1,7 @@
 import requests
 import sys
 
-subd_list = open("wordlist2.txt").read() # Change location/name
+subd_list = open("WORDLIST.txt").read() # Change location/name
 subdomains = subd_list.splitlines()
 
 if len(sys.argv) == 1 or len(sys.argv) > 2:
