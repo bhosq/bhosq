@@ -27,4 +27,4 @@ else:
 			if r.status_code==404:
 				pass
 			else:
-					print("URL:",dir_enum.format(i,x)," -->  Status: ",r.status_code)
+				print("URL:",dir_enum.format(i,x)," -->  Status: ",r.status_code)
